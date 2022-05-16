@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.project">
+
+    <uses-permission android:name = "android.permission.VIBRATE" />
+    <application
+        android:allowBackup="true"
+        android:banner="@drawable/slogan3"
+        android:hardwareAccelerated="false"
+        android:icon="@drawable/logo"
+        android:label="#عيشها صح"
+        android:largeHeap="true"
+        android:roundIcon="@drawable/slogan3"
+        android:supportsRtl="false"
+        android:theme="@style/Theme.Project">
+        <activity
+            android:name=".Tips"
+            android:exported="false"
+            android:theme="@style/Theme.Project.NoActionBar"/>
+        <activity
+            android:name=".InformationActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Project.NoActionBar" />
+        <activity
+            android:name=".ContactUs_Activity"
+            android:exported="false"
+            android:theme="@style/Theme.Project.NoActionBar" />
+        <activity
+            android:name=".Sponser"
+            android:exported="false"
+            android:theme="@style/Theme.Project.NoActionBar" />
+        <activity
+            android:name=".projectDetails"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <receiver android:name=".ReminderBroadcast"></receiver>
+        <service
+            android:name = ".NotificationService"
+            android:label = "@string/app_name"
+            android:exported="true">
+            <intent-filter>
+                <action
+                    android:name = "app.tutorialspoint.com.notifyme.NotificationService" />
+                <category android:name = "android.intent.category.DEFAULT" />
+            </intent-filter>
+        </service>
+    </application>
+
+</manifest>

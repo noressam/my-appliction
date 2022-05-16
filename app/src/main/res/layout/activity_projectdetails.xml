@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".projectDetails"
+    android:background="@color/white"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="135dp"
+            android:src="@drawable/logo"/>
+
+    </LinearLayout>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="420dp"
+        android:layout_gravity="top"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="10dp"
+        app:cardBackgroundColor="@color/silver"
+        app:cardCornerRadius="10dp"
+        app:cardPreventCornerOverlap="true"
+        app:cardUseCompatPadding="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingStart="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="من نحن :"
+                android:textAlignment="viewEnd"
+                android:textSize="25dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="17dp"
+                android:text="من واقع شعورنا بالمسئولية الاجتماعية كقادة للمستقبل.قررنا أن نكون جزءاً من حملات التوعية بأهمية الجهاز المناعي والعوامل المؤثرة عليه.نحن مجموعة طلاب من الفرقة الرابعة، بكلية الإعلام جامعة القاهرة قسم العلاقات العامة والإعلان وأسسنا حملة خط دفاع ، التي تهدف للحفاظ على صحة الإنسان من خلال التوعية بأهمية الجهاز المناعي والعوامل المؤثرة عليه."
+                android:textAlignment="viewEnd"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/team"/>
+
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+        </LinearLayout>

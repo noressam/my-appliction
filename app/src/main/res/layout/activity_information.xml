@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/white">
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".InformationActivity">
+    <TextView
+        android:id="@+id/intro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="أضف إلي معلوماتك"
+        android:textStyle="bold"
+        android:background="@color/blue"
+        android:textColor="@color/black"
+        android:textAlignment="viewEnd"
+        android:layout_marginLeft="110dp"
+        android:textSize="20dp"></TextView>
+    <TextView
+        android:id="@+id/txt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="نبذه عن المناعة:"
+        android:layout_below="@+id/intro"
+        android:textColor="@color/blue"
+        android:textSize="20dp"
+        android:layout_alignParentRight="true"></TextView>
+    <TextView
+        android:id="@+id/txt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/txt1"
+        android:text="المناعة عبارة عن جهاز أو منظومة  دفاعية تقوم بالدفاع عن الجسم ضد الأمراض والسموم، وذلك من خلال مجموعة من الأدوات."></TextView>
+    <TextView
+        android:id="@+id/txt3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="من أهمها:"
+        android:textColor="@color/blue"
+        android:textSize="20dp"
+        android:layout_below="@+id/txt2"
+        android:layout_alignParentRight="true"></TextView>
+    <TextView
+        android:id="@+id/txt4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/txt3"
+        android:text="-خلايا الدم البيضاء \n-الخلايا الليمفاوية \n -النخاع العظمى \n -الغدة الزعترية \n-الجلد \n-الدماغ \n-الطحال"></TextView>
+    <TextView
+        android:id="@+id/txt5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="أجهزة المناعة:"
+        android:textColor="@color/blue"
+        android:textSize="20dp"
+        android:layout_below="@+id/txt4"
+        android:layout_alignParentRight="true"></TextView>
+    <TextView
+        android:id="@+id/txt7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_below="@+id/txt5"
+        android:layout_alignParentRight="true"
+        android:text="-كرات الدم البيضاء:"></TextView>
+    <ImageView
+        android:id="@+id/wb"
+        android:layout_width="wrap_content"
+        android:layout_height="110dp"
+        android:layout_marginRight="65dp"
+        android:src="@drawable/whiteblood"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/txt7"></ImageView>
+    <TextView
+        android:id="@+id/txt6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:layout_below="@+id/wb"
+        android:text="خلايا الدم البيضاء هي اللاعب الرئيسي في جهاز المناعة لديك. يتم تصنيعها في نخاع العظام وهي جزء من الجهاز اللمفاوي. تتحرك خلايا الدم البيضاء عبر الدم والأنسجة في جميع أنحاء الجسم، بحثًا عن الكائنات الغريبة (الميكروبات) مثل البكتيريا والفيروسات والطفيليات والفطريات. عندما يجدونهم، فإنهم يشنون هجومًا مناعيًا."></TextView>
+    <TextView
+        android:id="@+id/txt8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_below="@+id/txt6"
+        android:layout_alignParentRight="true"
+        android:text="-الاجسام المضادة:"></TextView>
+    <ImageView
+        android:id="@+id/anti"
+        android:layout_width="231dp"
+        android:layout_height="110dp"
+        android:layout_marginRight="65dp"
+        android:src="@drawable/anti"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/txt8"></ImageView>
+    <TextView
+        android:id="@+id/txt9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:layout_below="@+id/anti"
+        android:text="تساعد الأجسام المضادة الجسم على محاربة الميكروبات أو السموم (السموم) التي تنتجها.  يفعلون ذلك من خلال التعرف على المواد التي تسمى المستضدات الموجودة على سطح الميكروب، أو في المواد الكيميائية التي تنتجها، والتي تميز الميكروب أو السم على أنه غريب.  ثم تقوم الأجسام المضادة بتمييز هذه المستضدات للتدمير. هناك العديد من الخلايا والبروتينات والمواد الكيميائية المتورطة في هذا الهجوم."></TextView>
+    <TextView
+        android:id="@+id/txt10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_below="@+id/txt9"
+        android:layout_alignParentRight="true"
+        android:text="-الجهاز الليمفاوي:"></TextView>
+    <ImageView
+        android:id="@+id/lemfawy"
+        android:layout_width="231dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="65dp"
+        android:src="@drawable/lemfawey"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/txt10"></ImageView>
+    <TextView
+        android:id="@+id/txt11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:layout_below="@+id/lemfawy"
+        android:text="عبارة عن شبكة من الأنابيب الدقيقة في جميع أنحاء الجسم.\n تشكل الأدوار الرئيسية للجهاز الليمفاوي:\n \n 1-إدارة مستويات السوائل ف الجسم \n 2-تتفاعل مع البكتيريا \n 3-التعامل مع الخلايا السرطانية \n 4-	التعامل  مع منتجات الخلايا التي من شأنها أن تؤدي إلى أمراض أو اضطرابات تمتص بعض الدهون في نظامنا الغذائي من الأمعاء.
+يتكون الجهاز اللمفاوي من: \n"></TextView>
+    <TextView
+        android:id="@+id/txt12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:layout_below="@id/txt11"
+        android:layout_marginRight="10dp"
+        android:text="*العقد الليمفاوية (وتسمى أيضًا الغدد الليمفاوية) التي تحبس الميكروبات.\n *الأوعية الليمفاوية وهي الأنابيب التي تحمل اللمف.\n *السائل عديم اللون الذي يغمر أنسجة الجسم ويحتوي علي خلايا الدم البيضاء المقاومة للعدوي. \n *خلايا الدم البيضاء (الخلايا الليمفاوية)."></TextView>
+    <TextView
+        android:id="@+id/txt13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_below="@+id/txt12"
+        android:layout_alignParentRight="true"
+        android:text="-الطحال:"></TextView>
+    <ImageView
+        android:id="@+id/tohal"
+        android:layout_width="231dp"
+        android:layout_height="110dp"
+        android:layout_marginRight="65dp"
+        android:src="@drawable/tohal"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/txt13"></ImageView>
+    <TextView
+        android:id="@+id/txt14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:layout_below="@id/tohal"
+        android:text="هو جهاز لتنقية الدم يزيل الميكروبات ويدمر خلايا الدم الحمراء القديمة أو التالفة.كما أنه يصنع مكونات مكافحة الأمراض في جهاز المناعة (بما في ذلك الأجسام المضادة والخلايا الليمفاوية)."></TextView>
+    <TextView
+        android:id="@+id/txt15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_below="@+id/txt14"
+        android:layout_alignParentRight="true"
+        android:text="-نخاع العظام:"></TextView>
+    <ImageView
+        android:id="@+id/no5a3"
+        android:layout_width="231dp"
+        android:layout_height="110dp"
+        android:layout_marginRight="65dp"
+        android:src="@drawable/no5a3"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/txt15"></ImageView>
+    <TextView
+        android:id="@+id/txt16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:layout_below="@+id/no5a3"
+        android:text=" هو النسيج الإسفنجي الموجود داخل عظامك. ينتج خلايا الدم الحمراء التي تحتاجها أجسامنا لنقل الأكسجين، وخلايا الدم البيضاء التي نستخدمها لمكافحة العدوى،والصفائح الدموية التي نحتاجها للمساعدة في تجلط الدم."></TextView>
+    <TextView
+        android:id="@+id/txt17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_below="@+id/txt16"
+        android:layout_alignParentRight="true"
+        android:text="-الغدة الدرقية:"></TextView>
+    <ImageView
+        android:id="@+id/darakeya"
+        android:layout_width="231dp"
+        android:layout_height="110dp"
+        android:layout_marginRight="65dp"
+        android:src="@drawable/darakya"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/txt17"></ImageView>
+    <TextView
+        android:id="@+id/txt18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:layout_below="@+id/darakeya"
+        android:text="تقوم الغدة الدرقية بتصفية ومراقبة محتوى الدم لديك. ينتج خلايا الدم البيضاء التي تسمى الخلايا اللمفاوية التائية."></TextView>
+    <TextView
+        android:id="@+id/txt19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/txt18"
+        android:textStyle="bold"
+        android:text="-الجلد:"></TextView>
+    <TextView
+        android:id="@+id/txt20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/txt19"
+        android:text="حاجز مضاد للماء يفرز الزيت بخصائص قتل البكتيريا."></TextView>
+    <TextView
+        android:id="@+id/txt21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/txt20"
+        android:textStyle="bold"
+        android:text="-الرئتين:"></TextView>
+    <TextView
+        android:id="@+id/txt22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:layout_below="@+id/txt21"
+        android:text="يحبس المخاط في الرئتين 'البلغم' الجزيئات الغريبة، وتوجه الشعيرات الصغيرة 'الأهداب' المخاط إلى أعلى حتى يمكن إخراجها من السعال."></TextView>
+    <TextView
+        android:id="@+id/txt23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/txt22"
+        android:textStyle="bold"
+        android:text="-الجهاز الهضمي:"></TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/txt23"
+        android:text="تحتوي البطانة المخاطية على أجسام مضادة، ويمكن للحمض الموجود في المعدة أن يقتل معظم الميكروبات."></TextView>
+</RelativeLayout>
+</ScrollView>

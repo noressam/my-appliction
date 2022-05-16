@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/white">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".Tips">
+    <TextView
+    android:id="@+id/txt1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="نصائح عامه "
+    android:textStyle="bold"
+    android:layout_marginBottom="20dp"
+    android:background="@color/blue"
+    android:textColor="@color/black"
+    android:textAlignment="viewEnd"
+    android:layout_marginLeft="135dp"
+    android:textSize="20dp"></TextView>
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="هل تود تفعيل تلقي الاشعارات بنصائح يومية \n"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_below="@+id/txt1"
+        android:layout_alignParentRight="true"></TextView>
+    <Switch
+        android:id="@+id/sw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@+id/text"
+        android:layout_below="@+id/txt1"></Switch>
+    <TextView
+        android:id="@+id/txt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/blue"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/text"
+        android:text="نصائح لنوم صحي:"></TextView>
+    <TextView
+        android:id="@+id/txt3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="17dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/txt2"
+        android:layout_marginRight="10dp"
+        android:text="\n1-استلقِ على ظهرك إذا كنت واقفاً أو جالساً معظم  اليوم، فقد يصاب العمود الفقري والمفاصل بالتوتر بسبب ثقل الوزن. \n \n 2-نم علي جانبك اذا كنت تعاني من الارتجاع  والحموضة.\n \n 3-تحديد موعد النوم والالتزام به وذلك للمحافظة على  الساعة البيولوجية.\n \n 4-راقب كل ما تأكله قبل النوم فتجنب الكربوهيدرات  والكافيين.\n\n 5-لا تنم أكثر من احتياجك.\n"></TextView>
+    <TextView
+        android:id="@+id/txt4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="17dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/txt3"
+        android:layout_marginRight="10dp"
+        android:text=" 6-لا تشرب الكثير من الكافيين.\n \n 7-خذ حماماً ساخناً.\n \n 8-جرب النظارات الواقية للضوء الأزرق إذا كنت لا تستطيع التخلي عن الشاشات قبل النوم.\n \n 9-التأكد من الآثار الجانبية للأدوية فقد تسبب بعض الأدوية الأرق كأثر جانبي، كأدوية ضغط الدم المرتفع، والستيرويدات المستخدمة لعلاج التهاب المفاصل، لذلك يجب اخذ الاحتياط. \n."></TextView>
+    <TextView
+        android:id="@+id/txt5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/blue"
+        android:textSize="23dp"
+        android:textStyle="bold"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/txt4"
+        android:text="نصائح للصحة النفسية: \n"></TextView>
+    <TextView
+        android:id="@+id/txt6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/dark_gray"
+        android:textSize="23dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/txt5"
+        android:layout_marginRight="10dp"
+        android:text="1-معالجة التوتر:\n"></TextView>
+    <TextView
+        android:id="@+id/txt7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/txt6"
+        android:layout_marginRight="15dp"
+        android:text="التوتر شائع في الحياة اليومية، ولكن التعرض لتوتر مستمر قد يؤثر على صحتنا. ومهما كانت أسباب التوتر، يمكننا أن نتعلم طرق للحد من وقوع حالات التوتر ومعالجة التوتر بشكل جيد، بما في ذلك التوتر في العمل (معالجة التوتر). من هذه الطرق على سبيل المثال أخذ استراحة لمدة خمس دقائق من الروتين المعتاد، وتقاسم الغداء مع الزملاء في العمل أو القيام بنشاط جديد في عطلة نهاية الأسبوع. بضع دقائق تكفي للتخلص من التوتر النفسي و تساعد على تحسين المزاج.\n"></TextView>
+    <TextView
+        android:id="@+id/txt8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/dark_gray"
+        android:textSize="23dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/txt7"
+        android:layout_marginRight="10dp"
+        android:text="2-تجنب المنشطات: \n"></TextView>
+    <TextView
+        android:id="@+id/txt9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/txt8"
+        android:layout_marginRight="15dp"
+        android:text="تؤثر المنشطات كالكافيين ومشروبات الطاقة والتبغ فضلاً عن بعض الأدوية الأخرى سلباً على صحتنا العامة، كما قد تسهم في حدوث مشاكل نفسية على المدى الطويل. لذلك فمن الأفضل تجنبها تماماً أو خفض كمية وعدد مرات استخدامها تدريجياً.\n\n"></TextView>
+    <TextView
+        android:id="@+id/txt10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/dark_gray"
+        android:textSize="23dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/txt9"
+        android:layout_marginRight="10dp"
+        android:text="3-قبول الذات والتفكير الايجابي: \n"></TextView>
+    <TextView
+        android:id="@+id/txt11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/txt10"
+        android:layout_marginRight="15dp"
+        android:text="أن نتعلم تقبّل أننا جميعاً مختلفون ولدينا مهارات وقدرات وصفات مختلفة هي خطوة أساسية في تحسين العافية. يساعدنا استيعاب هذه الخلافات وتقديرها سواء لدينا أو لدى الآخرين في بناء علاقات إيجابية. فلنحاول التعرف على الأفكار السلبية، والاستعاضة عنها بأخرى إيجابية وقضاء وقت أكبر في ممارسة أنشطة ممتعة تشغل أذهاننا بشكل إيجابي.\n"></TextView>
+    <TextView
+        android:id="@+id/txt12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/dark_gray"
+        android:textSize="23dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/txt11"
+        android:layout_marginRight="10dp"
+        android:text="4-كن يقظاً: \n"></TextView>
+    <TextView
+        android:id="@+id/txt13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/txt12"
+        android:layout_marginRight="15dp"
+        android:text="'اليقظة' تعني أن نكون أكثر وعياً باللحظة الراهنة، مثل وعينا بمشاعرنا وأفكارنا وأجسادنا والعالم من حولنا. يساعد تعلّم أساليب اليقظة إلى جانب أساليب الاسترخاء (أدوات للعافية النفسية) بشكل إيجابي في تغيير شعورنا تجاه الحياة على أساس يومي وتغيير طريقتنا في مواجهة التحديات.\n"></TextView>
+    <TextView
+        android:id="@+id/txt14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/dark_gray"
+        android:textSize="23dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/txt13"
+        android:layout_marginRight="15dp"
+        android:text="5-كن اجتماعياً واهتم بالآخرين وتواصل معهم: \n"></TextView>
+    <TextView
+        android:id="@+id/txt15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/txt14"
+        android:layout_marginRight="15dp"
+        android:text="التواصل مع الأصدقاء والأسرة يشعرنا بالاندماج والرعاية. يمكن أن يقدم الأشخاص المقربون منا وجهات نظر مختلفة عن ما يدور داخل أنفسنا، ويمكنهم مساعدتنا على حل مشاكلنا العملية والحفاظ على نشاطنا واتصالنا بالواقع. عندما نتحدث عن مشاعرنا ونتبادل أفكارنا مع أشخاص فإن هذا يسهم بشعورنا بالراحة والدعم وخاصة في حالات الانزعاج والتوتر. ويندرج ذلك في إطار تولي مسؤولية عافيتنا ودعم من حولنا للبقاء في صحة جيدة. \n"></TextView>
+    <TextView
+        android:id="@+id/txt16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/dark_gray"
+        android:textSize="23dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/txt15"
+        android:layout_marginRight="10dp"
+        android:text="6-استمتع وتعلم مهارات جديدة وافعل أشياء تتقنه: \n"></TextView>
+    <TextView
+        android:id="@+id/txt17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/txt16"
+        android:layout_marginRight="15dp"
+        android:text="يساعد القيام بأنشطة ممتعة في التغلب على الإجهاد والتوتر، وبالتالي فتخصيص وقت لفعل أشياء نحبّها يمكن أن يعزز صحتنا النفسية إلى حد كبير.
+تعلم مهارات جديدة يعطينا الثقة ويشعرنا بالإنجاز. يمكن أن يأخذ هذا التعلم أشكالاً مختلفة كالمشاركة في دورة تدريبية أو تعلم العزف على آلة موسيقية أو رياضة أو لغة أو أي اهتمام أو أي هواية تعتبر تحدياً ممتعاً. عندما نفعل شيئاً نتقنه نشعر بالنجاح أو الارتياح مما يحسن ثقتنا بأنفسنا وتقديرنا لها
+.\n"></TextView>
+    <TextView
+        android:id="@+id/txt18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="23dp"
+        android:textColor="@color/dark_gray"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/txt17"
+        android:layout_marginRight="10dp"
+        android:text="7-الإيمان والروحانيات: \n"></TextView>
+    <TextView
+        android:id="@+id/txt19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/txt18"
+        android:layout_marginRight="15dp"
+        android:text="يعبر الناس عن إيمانهم أو روحانيتهم بطرق عديدة ومختلفة كالالتزام بمعتقدات وممارسات وقيم تعطيهم معنىً أو هدفاً في الحياة وتتيح لهم الشعور بالاتصال مع شيء أقوى من أنفسهم. إن ذلك يساعد الأشخاص على التأقلم وفهم ما يمرون به والشعور بالامتنان على ما لديهم في الحياة. كما يضاف إلى ذلك قدرة الأشخاص على التفاعل مع تحديات الحياة وثقتهم بأنفسهم.\n"></TextView>
+    <TextView
+        android:id="@+id/txt20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_alignParentRight="true"
+        android:textColor="@color/dark_gray"
+        android:layout_below="@+id/txt19"
+        android:layout_marginRight="10dp"
+        android:text="8-اطلب المساعدة:\n"></TextView>
+    <TextView
+        android:id="@+id/txt21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="23dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/txt20"
+        android:layout_marginRight="20dp"
+        android:text="لا يوجد إنسان خارق، وكلنا يشعر أحياناً بالتعب أو الضغط الشديد أمام تحديات الحياة. لكن إذا ازدادت الأمور تعقيداً ووجدنا صعوبة في التعامل معها، عندئذ من المهم طلب المساعدة إما من شخص نثق به أو طلب المساعدة والدعم من مختص (مقتبس من '10 طرق للعناية بصحتك النفسية'، مؤسسة الصحة النفسية في المملكة المتحدة).\n"></TextView>
+    <TextView
+        android:id="@+id/txt22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/blue"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/txt21"
+        android:text="نصائح الرياضة: \n"></TextView>
+    <TextView
+        android:id="@+id/txt23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/dark_gray"
+        android:textSize="23dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/txt22"
+        android:layout_marginRight="15dp"
+        android:text="1-تناول الكربوهيدرات قبل ممارسة الرياضة: \n"></TextView>
+    <TextView
+        android:id="@+id/txt24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/txt23"
+        android:layout_marginRight="15dp"
+        android:text="قبل ممارسة التمارين الرياضية يجب أن تتناول الطعام الذي يحتوي على قدر كبير من الكربوهيدرات مثل الخبز، والمكرونة، والحبوب، وهي تمنح الجسم الطاقة اللازمة بشكل سريع وفوري كما أن احتوائها على بعض الدهون الصحية وبعض البروتينات وذلك للحفاظ على الكتلة العضلية بشكل سليم وصحي وهذا هو السبب من ضرورة تناول البروتينات عند ممارسة الرياضة لأن تناول الدهون والألياف يهضم ببطء وهذا هو عدم الشعور بالارتياح أثناء ممارسة الرياضة.\n"></TextView>
+    <TextView
+        android:id="@+id/txt25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="23dp"
+        android:textColor="@color/dark_gray"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/txt24"
+        android:layout_marginRight="10dp"
+        android:text="2-تجنب الأطعمة المقلية: \n"></TextView>
+    <TextView
+        android:id="@+id/txt26"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/txt25"
+        android:layout_marginRight="15dp"
+        android:text="من أكثر الأطعمة ضررًا هو تناول المقليات بجميع أنواعها مثل اللحوم والدجاج والبطاطس وهي تتعارض مع نظامك في ممارسة الرياضة ويجب استبدالها  والخضروات والبروتينات قبل ممارسة الرياضة.\n"></TextView>
+    <TextView
+        android:id="@+id/txt27"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="23dp"
+        android:textColor="@color/dark_gray"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/txt26"
+        android:layout_marginRight="15dp"
+        android:text="3-شرب المياه قبل التمرين: \n"></TextView>
+    <TextView
+        android:id="@+id/txt28"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/txt27"
+        android:layout_marginRight="20dp"
+        android:text="احرص على شرب كمية وفيرة من المياه قبل وأثناء وبعد التمرين لأن ممارسة الرياضة تفقد الجسم قدر كبير من السوائل ولا بد أن تحافظ على رطوبة الجسم بشرب ما لا يقل عن 2 لتر من المياه حتى تحافظ على استقرار حرارة الجسم يوميا.\n"></TextView>
+    <TextView
+        android:id="@+id/txt29"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="23dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/txt28"
+        android:textColor="@color/dark_gray"
+        android:layout_marginRight="15dp"
+        android:text="4-تناول البروتينات بعد ممارسة الرياضة: \n"></TextView>
+    <TextView
+        android:id="@+id/txt30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/txt29"
+        android:layout_marginRight="20dp"
+        android:text="بناء العضلات القوية بشكل سليم لابد أن يتبع نظام غذائي غني بالبروتينات حيث أن البروتين هو أهم عنصر لتقوية العضلة والحفاظ عليها وتتنوع مصادر البروتينات في الأطعمة المختلفة مثل اللحوم والدجاج واللبن والبيض والبقوليات فاحرص على تناول من 10 إلى 20 جراما من البروتين يوميا.\n"
+        ></TextView>
+    <TextView
+        android:id="@+id/txt31"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="23dp"
+        android:layout_alignParentRight="true"
+        android:textColor="@color/dark_gray"
+        android:layout_below="@+id/txt30"
+        android:layout_marginRight="10dp"
+        android:text="5-تجنب الكافيين قبل وبعد ممارسة الرياضة: \n"></TextView>
+    <TextView
+        android:id="@+id/txt32"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/txt31"
+        android:layout_marginRight="15dp"
+        android:text="مادة الكافيين وهي مادة منبهة للجسم تصاحبها آثار سلبية مثل الشعور بالغثيان والصداع في بعض الحالات ولهذا حاول تجنب تناولها قدر الإمكان قبل أو بعد التمرين.\n"
+></TextView>
+    <TextView
+        android:id="@+id/txt33"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="23dp"
+        android:textColor="@color/dark_gray"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/txt32"
+        android:layout_marginRight="10dp"
+        android:text="6-يجب وضع خطة لممارسة الرياضة:\n"></TextView>
+    <TextView
+        android:id="@+id/txt34"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/txt33"
+        android:layout_marginRight="15dp"
+        android:text="يمكنك الالتزام بسهولة بالأهداف التي حددتها لنفسك إذا كنت تضع خطة تشمل كل ما يتعلق بممارسة الرياضة من بداية التدريبات الرياضية وما ترغب في الوصول من أهداف في كل جلسة تدريب.\n"
+></TextView>
+    <TextView
+        android:id="@+id/txt35"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="23dp"
+        android:textColor="@color/dark_gray"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/txt34"
+        android:layout_marginRight="10dp"
+        android:text="7-انتظم في التدريب: \n"></TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/txt35"
+        android:layout_marginRight="15dp"
+        android:text="حتى تحقق نتائج جيدة في ممارسة الرياضة يجب أن تتمرن على الأقل 4 مرات أسبوعياً وهذا يرجع إلى أهدافك التي حددتها وبناء عليها تحسن من لياقتك البدنية بالانتظام في ممارسة الرياضة والذهاب إلى التدريبات في مواعيدها المخصصة واجعل مدة تمريناتك الرياضية لا تقل عن 20 دقيقة وهي مدة كافية للوصول إلى أهدافك المستهدفة."
+></TextView>
+</RelativeLayout>
+</ScrollView>
